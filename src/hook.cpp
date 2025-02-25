@@ -39,9 +39,7 @@ char* TrampolineHook(char* src, char* dst, unsigned int len)
 	*(uintptr_t*)(gateway + len + 1) = srcAddy;
 
 	if (Hook(src, dst, len))
-	{
 		return gateway;
-	}
 
 	return nullptr;
 }

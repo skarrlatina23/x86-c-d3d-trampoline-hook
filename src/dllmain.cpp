@@ -1,6 +1,6 @@
-#include "src/includes.h"
-#include "src/device.h"
-#include "src/hook.h"
+#include "includes.h"
+#include "device.h"
+#include "hook.h"
 
 void* d3d9Device[119];
 BYTE EndSceneBytes[7]{ 0 };
